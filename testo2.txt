@@ -1,2 +1,8 @@
-algo
-un cabio
+git add .   //para todo
+git add file //para algo
+git diff //para ver dif que no esten add
+git diff --staged //para ver dif que si esten add
+git reset HEAD file //para quidar del add
+git commit -m "algo" //para comit
+git status //ver como estan los adds para el comid
+git checkout -- file  para dejarlo com el commit anterior
