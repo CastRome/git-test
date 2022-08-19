@@ -17,3 +17,4 @@ git branch "nombre" //crea rama
 git checkout "nombre rama" // pasarse
 git checkout -b "nombre rama" //crea la rama y nos ubica
 git branch -m "nombre nuevo" //cambia nombre
+git merge "rama" // rama master se actualiza con otra rama
