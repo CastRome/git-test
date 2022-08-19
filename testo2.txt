@@ -5,4 +5,7 @@ git diff --staged //para ver dif que si esten add
 git reset HEAD file //para quidar del add
 git commit -m "algo" //para comit
 git status //ver como estan los adds para el comid
-git checkout -- file  para dejarlo com el commit anterior
+git checkout -- file  //para dejarlo com el commit anterior
+git log  //trae todos los logs
+git log --oneline //trae todos lso cmits resumidos
+git show [id commit]//cada show de cada comid por 
