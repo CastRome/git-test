@@ -31,3 +31,15 @@ git branch -D "nombre" // borrar rama sin commit
 carpeta/nombre  //solo los que cumplan la condicion
 nombre // ignora todo lo de es enombre o carpeta
 *.log  //ignorar todo los archivos
+
+
+    git clone <url> - clona un repositorio.
+    git remote add <nombre> <url> - configura un repositorio remoto.
+    git remote - lista los repositorios remotos.
+    git push -u <remoto> <rama> - sincroniza la rama con la remota por primera vez.
+    git push - envía los nuevos commits a la rama remota.
+    git push -f <remoto> <rama> - reemplaza la rama remota con el historial de la rama local.
+    git pull - actualiza los commits de la rama remota.
+    git checkout <rama> - descarga la rama del remoto si no existe localmente.
+    git fetch <remoto> - actualiza la información del repositorio remoto.
+    git rebase <remoto>/<rama> - rebasa la rama local contra la remota.
