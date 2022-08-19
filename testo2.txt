@@ -10,6 +10,8 @@ git log  //trae todos los logs
 git log --oneline //trae todos lso cmits resumidos
 git show [id commit]//cada show de cada comid por 
 
+  
+
 
 ramas
 git branch // listado de ramas
@@ -18,3 +20,4 @@ git checkout "nombre rama" // pasarse
 git checkout -b "nombre rama" //crea la rama y nos ubica
 git branch -m "nombre nuevo" //cambia nombre
 git merge "rama" // rama master se actualiza con otra rama
+git log --oneline --graph --all // muestra los commits con su rama
