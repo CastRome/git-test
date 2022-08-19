@@ -10,6 +10,7 @@ git log  //trae todos los logs
 git log --oneline //trae todos lso cmits resumidos
 git show [id commit]//cada show de cada comid por 
 
+git checkout -- "nombre del archivo" //devolverlo al commit anterior
   
 
 
@@ -21,3 +22,12 @@ git checkout -b "nombre rama" //crea la rama y nos ubica
 git branch -m "nombre nuevo" //cambia nombre
 git merge "rama" // rama master se actualiza con otra rama
 git log --oneline --graph --all // muestra los commits con su rama
+git branch -d "nombre" // borrar rama commited
+git branch -D "nombre" // borrar rama sin commit
+
+
+
+.gitignore
+carpeta/nombre  //solo los que cumplan la condicion
+nombre // ignora todo lo de es enombre o carpeta
+*.log  //ignorar todo los archivos
