@@ -11,7 +11,7 @@ git log --oneline //trae todos lso cmits resumidos
 git show [id commit]//cada show de cada comid por 
 
 git checkout -- "nombre del archivo" //devolverlo al commit anterior
-  
+git log --oneline | wc -l // contar lineas de commits
 
 
 ramas
