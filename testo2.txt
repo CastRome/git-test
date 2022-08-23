@@ -12,7 +12,7 @@ git show [id commit]//cada show de cada comid por
 
 git checkout -- "nombre del archivo" //devolverlo al commit anterior
 git log --oneline | wc -l // contar lineas de commits
-
+git reset --hard origin/[nombre de la rama] reemplaza la rama local con la rama remota. 
 
 ramas
 git branch // listado de ramas
@@ -25,6 +25,12 @@ git log --oneline --graph --all // muestra los commits con su rama
 git branch -d "nombre" // borrar rama commited
 git branch -D "nombre" // borrar rama sin commit
 
+github - o remoto -
+git push -u <remoto> <rama> - sincroniza la rama con la remota por primera vez.
+git fetch <remoto> - actualiza la información del repositorio remoto.
+git checkout <rama> - descarga la rama del remoto si no existe localmente.
+git pull  //actualiza  la rama remota
+git rebase origin/master
 
 
 .gitignore
